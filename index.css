@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(238, 249, 250);
+    font-family:'Times New Roman', serif ;
+    text-align: center;
+}
+h1{
+    margin-top:30px;
+}
+input[type="button"]{
+    margin:2px;
+    padding:25px;
+    background-color: rgb(200, 234, 236);
+    cursor: pointer;
+}
+form[name="calculator"] {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f970;
+}
+input[type="text"]{
+    width:270px;
+    height: 20px;
+}
+input[type="button"]:hover{
+    background-color: aqua;
+}
